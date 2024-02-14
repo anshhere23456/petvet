@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Form</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha384-d7uEu3o8r4gZE3z9KfIScu95py+PDEx3MQyBXsMLvMxlRle1zeLp+HDF9lnNfOA3" crossorigin="anonymous">
+
+    <style>
+        /* Your existing styles remain unchanged */
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Detail Form</h2>
+        <form method="post" action="#">
+            <div class="form-row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="name">
+                            <i class="fas fa-user icon"></i>First Name:
+                        </label>
+                        <input type="text" class="form-control" name="name" readonly>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="last_name">
+                            <i class="fas fa-user icon"></i>Last Name:
+                        </label>
+                        <input type="text" class="form-control" name="last_name" readonly>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">
+                    <i class="fas fa-envelope icon"></i>Email:
+                </label>
+                <input type="email" class="form-control" name="email" readonly>
+            </div>
+
+            <!-- Remove the Age section and add a text box for query -->
+            <div class="form-group">
+                <label for="query">
+                    <i class="fas fa-question-circle icon"></i>Query:
+                </label>
+                <input type="text" class="form-control" name="query" required>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">
+                    <i class="fas fa-venus-mars icon"></i>PET
+                </label>
+                <select class="form-control" name="Gender" required>
+                    <option value="male">Dog</option>
+                    <option value="female">Cat</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="query">
+                    <i class="fas fa-question-circle icon"></i>Breed:
+                </label>
+                <input type="text" class="form-control" name="Breed" required>
+            </div>
+            <br>
+              <h6>We Will Provide you the best veterinary service possible....</h6>
+              <br>
+            <button type="submit" class="btn btn-success">
+                <i class="fas fa-check-circle icon"></i>Submit
+            </button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"
+        integrity="sha384-mQZMl2zahWQ8aRfF+QrSX8nICvd9LIS5QD8vU8Tvc3b3lHwP02GwD2i/FqjsJY8" crossorigin="anonymous"></script>
+</body>
+
+</html>
